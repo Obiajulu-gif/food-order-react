@@ -22,7 +22,7 @@ A React-based application for ordering food online. This app allows users to bro
 
 ## Author
 
-# Okoye Emmanuel Obiajulu
+### Okoye Emmanuel Obiajulu
 
 ## Technologies Used
 
@@ -39,16 +39,16 @@ A React-based application for ordering food online. This app allows users to bro
 
 1. **Clone the repository:**
 
-   ````bash
+   ```bash
    git clone https://github.com/<your-username>/food-order-app.git
-   cd food-order-app```
+   cd food-order-app
 
    Install dependencies:
-   ```npm install```
+   npm install
 
     Start the development server:
-    ```npm start```
-   ````
+    npm start
+   ```
 
 ## Usage
 
@@ -56,8 +56,10 @@ Register or log in to your account.
 Browse the menu and select items to add to your cart.
 Manage your cart by adjusting quantities or removing items.
 Place an order and receive an order summary.
-Screenshots
-Add screenshots of your app here to give users a visual overview of the project.
+
+## Screenshots
+
+![Image of the website](./assets/image.png)
 
 ## Contributing
 
@@ -65,7 +67,9 @@ Contributions are welcome! Please follow these steps:
 
 ## Fork the repository.
 
-Create a new branch (git checkout -b feature-branch).
-Commit your changes (git commit -m 'Add some feature').
-Push to the branch (git push origin feature-branch).
+Create a new branch (`git checkout -b feature-branch`).
+
+Commit your changes (`git commit -m 'Add some feature`').
+
+Push to the branch (`git push origin feature-branch`).
 Open a pull request.
