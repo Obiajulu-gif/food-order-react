@@ -1,0 +1,57 @@
+.meals {
+  max-width: 60rem;
+  width: 90%;
+  margin: 2rem auto;
+  animation: meals-appear 1s ease-out forwards;
+}
+
+.meals ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@keyframes meals-appear {
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Loading Styling */
+.loader {
+  display: block;
+  margin: 20px auto;
+  border: 16px solid wheat;
+  border-top: 16px solid #8a2b06;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Error Message Typing  */
+.error {
+  display: inline-block;
+  font-size: 1.5rem;
+  color: #8a2b06;
+  border-right: 2px solid;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3.5s steps(40, end);
+  transition: all 0.3s ease;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
