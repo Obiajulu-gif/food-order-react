@@ -63,7 +63,7 @@ Place an order and receive an order summary.
 
 ## Screenshots
 
-![Image of the Food order website](src/assets/image.png)
+![Image of the Food order website](https://imgur.com/a/puwbAsB)
 
 ## Contributing
 
