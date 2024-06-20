@@ -2,6 +2,9 @@
 
 A React-based application for ordering food online. This app allows users to browse through a menu, add items to their cart, and place orders.
 
+## Link to the website
+[text](https://food-order-react.onrender.com/)
+
 ## Table of Contents
 
 - [Features](#features)
@@ -59,7 +62,7 @@ Place an order and receive an order summary.
 
 ## Screenshots
 
-![Image of the website](./assets/image.png)
+![Image of the Food order website](image-2.png)
 
 ## Contributing
 
